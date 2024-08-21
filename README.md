@@ -7,7 +7,8 @@ How to use:
 select clips with markers in timeline, select a color, and click 'Color all markers', it will color every marker of every selected clip in the active sequence.
 
 How to alter:
-change the effect on the marker in manipulateMarker() in host/index.jsx 
+change the effect on the marker in manipulateMarker() in host/index.jsx
+
 https://ppro-scripting.docsforadobe.dev/ is a usefull resource for any info on the models used.
 
 PS: blame all the bad code on chatGPT :P 

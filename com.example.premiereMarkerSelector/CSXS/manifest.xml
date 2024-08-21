@@ -30,7 +30,7 @@
                     <Menu>Marker Selector</Menu>
                     <Geometry>
                         <Size>
-                            <Height>100</Height>
+                            <Height>200</Height>
                             <Width>300</Width>
                         </Size>
                     </Geometry>

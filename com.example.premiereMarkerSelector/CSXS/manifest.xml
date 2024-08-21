@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ExtensionBundleId="com.example.premiereMarkerSelector" ExtensionBundleVersion="1.0" Version="6.0">
+    <ExtensionList>
+        <Extension Id="com.example.premiereMarkerSelector.panel" Version="1.0"/>
+    </ExtensionList>
+	<ExecutionEnvironment>
+		<HostList>
+			<Host Name="PPRO" Version="9.1" />
+			<Host Name="AEFT" Version="9.1" />
+		</HostList>
+		<LocaleList>
+			<Locale Code="All" />
+		</LocaleList>
+		<RequiredRuntimeList>
+			<RequiredRuntime Name="CSXS" Version="9.3" />
+		</RequiredRuntimeList>
+	</ExecutionEnvironment>
+    <DispatchInfoList>
+        <Extension Id="com.example.premiereMarkerSelector.panel">
+            <DispatchInfo>
+                <Resources>
+                    <MainPath>./index.html</MainPath>
+                    <ScriptPath>./host/index.jsx</ScriptPath>
+                </Resources>
+                <Lifecycle>
+                    <AutoVisible>true</AutoVisible>
+                </Lifecycle>
+                <UI>
+                    <Type>Panel</Type>
+                    <Menu>Marker Selector</Menu>
+                    <Geometry>
+                        <Size>
+                            <Height>100</Height>
+                            <Width>300</Width>
+                        </Size>
+                    </Geometry>
+                </UI>
+            </DispatchInfo>
+        </Extension>
+    </DispatchInfoList>
+</ExtensionManifest>

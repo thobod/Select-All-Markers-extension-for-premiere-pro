@@ -1,0 +1,8 @@
+<ExtensionList>
+    <Extension Id="com.example.premiereMarkerSelector.panel">
+       <HostList>
+           <Host Name="PPRO" Port="8090"/>
+           <Host Name="AEFT" Port="8091"/>
+        </HostList>
+    </Extension>
+</ExtensionList>
